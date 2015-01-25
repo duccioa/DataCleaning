@@ -1,12 +1,21 @@
-OVERVIEW
+INDEX:
 ========================================================================================
-The code run_analysis.R contained in the repo git DataCleaning by the user duccioa comes with README.md and CodeBook.md. The README file gives a general description of the aim of the code, the functioning, the instructions to make it work and the files and data related to it. The CodeBook describes the the output and contains a description of the data, provided by the authors of the dataset itself. For details about each step of the code please refer to the comments within the code itself.
+1. OVERVIEW
+2. THE DATASET
+3. 3.THE CODE: MANIPULATION OF THE DATASET
+
+
+1.OVERVIEW
+========================================================================================
+The code run_analysis.R contained in the repo git DataCleaning by the user duccioa comes with README.md and CodeBook.md. 
+The README file gives a general description of the aim of the code, of its functioning, the instructions to make it work and the description of the files and data related to it. The CodeBook describes contains a description of the variables.
+For step by step description of the code please refer to the comments within the code itself.
 
 
 
 
 
-THE DATASET (the following description comes from the original dataset)
+2.THE DATASET (the following description comes from the original dataset)
 ========================================================================================
 The code run_analysis.R is designed to manipulate the following dataset:
 
@@ -85,14 +94,18 @@ Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012
 
 
 
-THE MANIPULATION OF THE DATASET
-================================
+3.THE CODE: MANIPULATION OF THE DATASET
+=======================================================================================
 The code goes through the following steps:
 
 step 1 - Merge the train and test sets to create one dataset.
+
 step 2 - Extract only the measurements on the mean and standard deviation for each measurement.
+
 step 3 - Use descriptive activities names to  to name the activities in the dataset.
+
 step 4 - Appropriately label the data set with descriptive variable names. 
+
 Step 5 - Return as an output an independent tidy data set with the average of each variable for each activity and each subject.
 
 For details about each step of the code please refer to the comments within the code itself.
